@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lize Louw's Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+         <script src="script.js"></script>
+
+        <header class="bg-primary text-white text-center py-5">
+            <h1>Welcome to Lize Louw's Online CV</h1>
+            <p>Application Engineer</p>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Quick Links</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I have significant experience in the equine industry, but I am branching out into the information technology field. Currently in my final year of studies in this regard.<br> I love what I do, and I am committed to grow, to challenge myself and acquire new competences.<br> My ideal job would be to work at a place where I am constantly challenged by new projects that will improve my skillset and will have space for growth.<br> I have a passion for learning and developing, and know that in the right environment, I will flourish.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <p>
+                    September 2024<br>
+                    Application Engineer | Peach Payments | Pretoria<br>
+                    •   Working as a bridge between the development teams and the merchants.<br>
+                    •   Creating new software arhcitecture.<br>
+                    •   Providing techincal support and expertise to merchants.<br>
+                    •   Testing applications, maintaining harware, responding to customers.<br>
+                    <br>
+
+                    September 2020 - August 2024 <br>
+                    Branch Manager | Western Shoppe | Pretoria<br>
+                    •	Assessing branch processes, staff performance and KPI’s regularly to verify operations.<br>
+                    •	Applied retail KPI knowledge to make strategic, commercial decisions that lead to exceeding sales targets.<br>
+                    •	Administered budgets and managed accounts to achieve branch financial goals.<br>
+                    •	Handled front office branch activities during peak periods to manage and resolve complaints.<br>
+                    •	Daily cash up and balancing of cash flow.<br>
+                    •	Managed retail staff recruitment and training.<br>
+                    •	Deepened relationships acquired new clients, and improved service delivery to drive growth.<br>
+                    <br>
+                    
+                    November 2014 – August 2020<br>
+                    Saddle fitter and sales representative | Western Shoppe | Pretoria<br>
+                    •	Maintained up-to-date knowledge about products and promotions.<br>
+                    •	Made amicable decisions for customers and company to handle customer situations.<br>
+                    •	Engaged customers and built connections to drive long-term sales.<br>
+                    •	Consistently organized and restocked displays to keep the store ready for customer needs.<br>
+                    •	Stock control of saddle fitting accessories.<br>
+                    •	Booking appointments and providing saddle fitting services.
+                    <br>
+                    </p>
+            </section>
+
+            
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>
+                    •   Programming langues:<br>
+                        •   C#  <br>
+                        •   SQL<br>
+                        •   Java
+                </p>
+            </section>
+            
+            <section id="education">
+                <h2>Education</h2>
+                <p>
+                    •   North West University<br>
+                        •   BSc Information technology<br>
+                        •   2019 - 2024<br>
+                    •   Tshwane University of technology<br>
+                        •   2010 - 2014<br>
+                    •   Afrikaanse Hoër Meisieskool van Pretoria<br>
+                        •   2004 - 2009   
+                </p>
+            </section>
+
+            <section id="languages">
+                <h2>Languages</h2>
+                <p>
+                    •   Afrikaans<br>
+                    •   English
+                </p>
+            </section>
+
+        <section id="contact">
+            <h2>Contact me by</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    
+    </main>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Lize's Portfolio. All rights reserved.</p>
+    </footer>
+    </body>
+</html>
